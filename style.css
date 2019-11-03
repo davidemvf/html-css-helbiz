@@ -116,7 +116,7 @@ div.title p{
 .img-centering{
   /* background-color: green; */
   padding: 0;
-  width: 52%;
+  width: 42%;
   margin: 0 auto;
 }
 
@@ -188,6 +188,7 @@ div.box-second img{
 .fourth-section{
   height: 400px;
   background-color: white;
+  position: relative;
 }
 
 .left-fourth{
@@ -199,6 +200,14 @@ div.left-fourth h2{
 font-size: 40px;
 padding-left: 30%;
 padding-top: 15%;
+}
+
+.fourth-section img {
+  height: 600px;
+  position: absolute;
+  left:50%;
+  bottom: -20%;
+  transform: translate(-50%, -20%);
 }
 
 /* fifth section */
@@ -358,7 +367,7 @@ section.fifth p{
 
 /* footer */
 
-footer{
+/* footer{
     height: 750px;
     background-color: black;
   }
@@ -366,11 +375,20 @@ footer{
 .footer-boxes{
     width: calc(100% / 4);
     height: 225px;
+    color: white;
     background-color: red;
     margin-top: 130px;
     margin-bottom: 90px;
     float: left;
   }
+
+.title-list {
+  font-size: 18px;
+}
+
+.footer-boxes li{
+  display: block;
+}
 
 .social-nd-condition{
   width: 81%;
@@ -396,4 +414,4 @@ div.social-nd-condition ul li img{
   margin-right: 8px;
 
 
-}
+} */
